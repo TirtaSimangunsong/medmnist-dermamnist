@@ -1,0 +1,206 @@
+{
+  "actinic keratoses and intraepithelial carcinoma": {
+    "sample_index": 189,
+    "confidence": 0.9691,
+    "predicted": "actinic keratoses and intraepithelial carcinoma",
+    "correct": true,
+    "n_correct": 38,
+    "n_total": 66,
+    "layers": {
+      "layer3": {
+        "cam_shape": [
+          7,
+          7
+        ],
+        "raw_max": 0.12892355,
+        "is_dead": false,
+        "model_pred": "actinic keratoses and intraepithelial carcinoma"
+      },
+      "layer4": {
+        "cam_shape": [
+          4,
+          4
+        ],
+        "raw_max": 0.57789338,
+        "is_dead": false,
+        "model_pred": "actinic keratoses and intraepithelial carcinoma"
+      }
+    }
+  },
+  "basal cell carcinoma": {
+    "sample_index": 1698,
+    "confidence": 0.9788,
+    "predicted": "basal cell carcinoma",
+    "correct": true,
+    "n_correct": 69,
+    "n_total": 103,
+    "layers": {
+      "layer3": {
+        "cam_shape": [
+          7,
+          7
+        ],
+        "raw_max": 0.06892097,
+        "is_dead": false,
+        "model_pred": "basal cell carcinoma"
+      },
+      "layer4": {
+        "cam_shape": [
+          4,
+          4
+        ],
+        "raw_max": 0.47661519,
+        "is_dead": false,
+        "model_pred": "basal cell carcinoma"
+      }
+    }
+  },
+  "benign keratosis-like lesions": {
+    "sample_index": 145,
+    "confidence": 0.966,
+    "predicted": "benign keratosis-like lesions",
+    "correct": true,
+    "n_correct": 97,
+    "n_total": 220,
+    "layers": {
+      "layer3": {
+        "cam_shape": [
+          7,
+          7
+        ],
+        "raw_max": 0.15306437,
+        "is_dead": false,
+        "model_pred": "benign keratosis-like lesions"
+      },
+      "layer4": {
+        "cam_shape": [
+          4,
+          4
+        ],
+        "raw_max": 0.4718205,
+        "is_dead": false,
+        "model_pred": "benign keratosis-like lesions"
+      }
+    }
+  },
+  "dermatofibroma": {
+    "sample_index": 1462,
+    "confidence": 0.9996,
+    "predicted": "dermatofibroma",
+    "correct": true,
+    "n_correct": 13,
+    "n_total": 23,
+    "layers": {
+      "layer3": {
+        "cam_shape": [
+          7,
+          7
+        ],
+        "raw_max": 0.14534949,
+        "is_dead": false,
+        "model_pred": "dermatofibroma"
+      },
+      "layer4": {
+        "cam_shape": [
+          4,
+          4
+        ],
+        "raw_max": 0.85444808,
+        "is_dead": false,
+        "model_pred": "dermatofibroma"
+      }
+    }
+  },
+  "melanoma": {
+    "sample_index": 1675,
+    "confidence": 0.9588,
+    "predicted": "melanoma",
+    "correct": true,
+    "n_correct": 94,
+    "n_total": 223,
+    "layers": {
+      "layer3": {
+        "cam_shape": [
+          7,
+          7
+        ],
+        "raw_max": 0.16244964,
+        "is_dead": false,
+        "model_pred": "melanoma"
+      },
+      "layer4": {
+        "cam_shape": [
+          4,
+          4
+        ],
+        "raw_max": 0.54133725,
+        "is_dead": false,
+        "model_pred": "melanoma"
+      }
+    }
+  },
+  "melanocytic nevi": {
+    "sample_index": 11,
+    "confidence": 1.0,
+    "predicted": "melanocytic nevi",
+    "correct": true,
+    "n_correct": 1177,
+    "n_total": 1341,
+    "layers": {
+      "layer3": {
+        "cam_shape": [
+          7,
+          7
+        ],
+        "raw_max": 1.12658167,
+        "is_dead": false,
+        "model_pred": "melanocytic nevi"
+      },
+      "layer4": {
+        "cam_shape": [
+          4,
+          4
+        ],
+        "raw_max": 2.48948288,
+        "is_dead": false,
+        "model_pred": "melanocytic nevi"
+      }
+    }
+  },
+  "vascular lesions": {
+    "sample_index": 1376,
+    "confidence": 1.0,
+    "predicted": "vascular lesions",
+    "correct": true,
+    "n_correct": 26,
+    "n_total": 29,
+    "layers": {
+      "layer3": {
+        "cam_shape": [
+          7,
+          7
+        ],
+        "raw_max": 0.30030596,
+        "is_dead": false,
+        "model_pred": "vascular lesions"
+      },
+      "layer4": {
+        "cam_shape": [
+          4,
+          4
+        ],
+        "raw_max": 1.36484754,
+        "is_dead": false,
+        "model_pred": "vascular lesions"
+      }
+    }
+  },
+  "_model": {
+    "label": "ResNet-18 Baseline",
+    "attention": "none",
+    "layers": [
+      "layer3",
+      "layer4"
+    ]
+  }
+}
